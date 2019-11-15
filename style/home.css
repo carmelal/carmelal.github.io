@@ -1,0 +1,82 @@
+* {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url("../Background.jpg");
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: #36393B;
+  position: static;
+  padding: 20px;
+  text-align: center;
+  border-style: none;
+  margin: -8px;
+  width: 100%;
+}
+
+nav button {
+  padding: 7px 1%;
+  border-style: none;
+  margin: auto 2%;
+  font-size: 18px;
+  background-color: inherit;
+  letter-spacing: 4px;
+  outline: none;
+  border-radius: 10px;
+  width: 7%;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 64px;
+  margin-top: 30px;
+}
+
+#potato {
+  font-weight: lighter;
+  margin-top: -20px;
+}
+
+img {
+  float: left;
+  margin: 17px 20px;
+}
+
+section h2 {
+  font-size: 32px;
+  padding-left: 30px;
+  margin-top: -5px;
+}
+
+#info {
+  margin: -8px;
+  padding: 5px 2% 5px 33%;
+  background-color: lightcoral;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  background-color: #36393B;
+  margin: 0px -8px;
+  bottom: 0px;
+  width: 100%;
+  position: absolute;
+}

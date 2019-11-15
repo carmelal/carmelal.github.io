@@ -1,0 +1,92 @@
+* {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url("../Background.jpg");
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: rgb(57, 70, 72);
+  position: static;
+  padding: 20px;
+  text-align: center;
+  border-style: none;
+  margin: -8px;
+  width: 100%;
+}
+
+nav button {
+  padding: 7px 1%;
+  border-style: none;
+  margin: auto 2%;
+  font-size: 18px;
+  background-color: inherit;
+  letter-spacing: 4px;
+  outline: none;
+  border-radius: 10px;
+  width: 7%;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 52px;
+  margin-top: 30px;
+}
+
+#writing {
+  font-weight: lighter;
+  margin-top: -20px;
+}
+
+details {
+  margin: 15px 5%;
+}
+
+summary {
+  outline: none;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 45px 4% 5px 4%;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: 14px;
+  margin: 5px 4%;
+}
+
+.story {
+  margin: 10px 70px;
+}
+
+.last {
+  padding-bottom: 60px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(57, 70, 72);
+  margin: 0px -8px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}

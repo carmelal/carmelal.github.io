@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Carmela: A Confuzzled Potat</title>
+    <link rel="stylesheet" href="style/coding.css" type="text/css">
+  </head>
+
+  <nav>
+    <button><a href="home.html">About</a></button>
+    <button><a href="writing.html">Writing</a></button>
+    <button><a href="coding.html">Coding</a></button>
+    <button><a href="connect.html">Connect</a></button>
+  </nav>
+
+  <header>
+    <h1>Coding</h1>
+    <h3 id="coding"><em>Take a look at some of my past and ongoing coding projects!</em></h3>
+  </header>
+
+  <section>
+    <h3 class="heading">Hackathons</h3>
+    <h4 class="heading"><em>Every hackathon I've been to, I've mostly done UI/UX design and graphics, as opposed to coding. So, this isn't necessarily my code - but here are some highlights anyway!</em></h4>
+    <details>
+      <summary>Butterfly; - ElleHacks 2019</summary>
+      <p>Butterfly; is a web-based mental health chatroom. It is used in conjunction with Snapchat login. No sample code is available at this time.</p>
+    </details>
+    <details>
+      <summary>QuickMeds - WolfHacks 2018</summary>
+      <p>QuickMeds is an app/widget to be installed on your phone in order to solve a community safety issue. It was written in Pygame (Python) as, at the time, this was the only way our group knew how to program.
+      </p>
+      <div class="code">
+        <figure>
+          <pre><code>
+                while pressed:
+                  screen.blit(frontPic, (0,0))
+                  mouse_pos=pygame.mouse.get_pos()
+                  print mouse_pos
+                  for event in pygame.event.get():
+                      if event.type == pygame.QUIT:
+                              gameExit=True
+                              pressed=True
+                      if event.type == pygame.MOUSEBUTTONDOWN:
+                          mouse_click=True
+                      if event.type == pygame.MOUSEBUTTONUP:
+                          mouse_click=False
+                  if  mouse_pos[1] &lt 950 and mouse_click == True:
+                      Screen = True
+                      pressed=True
+                  if mouse_pos[1] > 950 and mouse_click == True:
+                      widscreen = True
+                      pressed=True
+                  else:
+                      Screen = False
+            </code></pre>
+        </figure>
+      </div>
+    </details>
+  </section>
+
+  <section>
+    <h3 class="heading">Classifieds</h3>
+    <h4 class="heading"><em>I haven't been looking into Classifieds stuff recently, but I'm hoping to get back into it - it's helped me learn a lot about git, Polaris and Rails!</em></h4>
+    <details>
+      <summary>Improve ad closed user experience - Shipped 10/15/2019</summary>
+      <div class="code">
+          <pre><code>
+            &lt% if @ad.closed? %>
+              &ltp>&lt%= ui_module 'flash', messages: "This ad is closed", status: :alert %>&lt/p>
+            &lt% end %>
+          </code></pre>
+      </div>
+    </details>
+    <details>
+      <summary>Implement reopen ad button and related features - Ongoing as of 10/15/2019</summary>
+      <div class="code">
+        <pre><code>
+          def reopen
+            @ad = Ad.find_by(id: params[:id])
+            @ad.activate
+            flash[:notice] = "You have successfully reopened your ad"
+            redirect_to ad_url(@ad)
+          end
+        </code></pre>
+      </div>
+
+    </details>
+  </section>
+
+  <section class="last">
+    <h3 class="heading">Other</h3>
+    <h4 class="heading"><em>Coming soon!</em></h4>
+  </section>
+
+  <footer>
+    <h5>© 2019 Carmela Leung</h5>
+  </footer>
+</html>
