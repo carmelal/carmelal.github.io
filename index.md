@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmela: A Confuzzled Potat</title>
+    <link rel= "stylesheet" href="style/home.css" type="text/css">
+    <script src="script/carmela.js"></script>
+  </head>
+  
+  <body>
+    <nav>
+      <button><a href="home.html">About</a></button>
+      <button><a href="writing.html">Writing</a></button>
+      <button><a href="coding.html">Coding</a></button>
+      <button><a href="connect.html">Connect</a></button>
+    </nav>
+    
+    <header>
+        <h1>Carmela Leung</h1>
+        <h3 id="potato"><em>The story of an eternally confused potato</em></h3>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <img src="Carmela Headshot.jpg" alt="Headshot of Carmela in front of a brick wall." width="500px" id="carmela">
+
+      <div id="info">
+        <p><strong>Hi, I'm Carmela!</strong> I'm not really sure how to introduce myself - it's something I'm still learning to do - so here are some questions people have asked me:</p>
+        <ol>
+          <li>If you were an animal, what animal would you be?
+            <br/><br/>
+            <em>I think I would be a cat. People say that I act a lot like a cat - the way I show affection, the way I communicate, all of it. It doesn't help that I used to meow at everyone and everything!</em>
+          </li>
+          <br/>
+          <li>What is one thing you are proud of, but don't usually get to talk about?
+            <br/><br/>
+            <em>This is a really hard question for me, haha. But if you have an answer for yourself, I'd love to hear it and be excited with you about it!</em>
+          </li>
+          <br/>
+          <li>
+            What instruments do you play?
+            <br/><br/>
+            <em>I play piano as my "main" instrument; I also kind of know how to play ukulele (self-taught this past summer) and guitar (self-taught starting a couple months ago). I used to play French horn and consequently trumpet, but I haven't touched my horn in a long time.</em>
+          </li>
+          <br/>
+          <li>
+            What languages to you speak?
+            <br/><br/>
+            <em>None.</em>
+          </li>
+          <br/>
+          <li>Wait, what?</li>
+        </ol>
+      </div>
+      
+    </section>
+
+    <footer>
+      <h5>© 2019 Carmela Leung</h5>
+    </footer>
+
+  </body>
+</html>
