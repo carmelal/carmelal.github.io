@@ -1,7 +1,7 @@
 window.onload = () => {
   const tuck = document.getElementById("tuck");
 
-  tuck.addEventListener("click", function() {
+  tuck.addEventListener("mouseover", function() {
     if (tuck.getAttribute("src") == "Tuck.jpeg") {
       tuck.src = "Couch PotaTuck.jpeg";
     }
